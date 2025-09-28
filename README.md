@@ -129,8 +129,6 @@ flowchart TD
   resetBall --> loop
   loop --> input
 
-
-
 ```
 
 
@@ -172,12 +170,6 @@ classDiagram
 ```
 
 
-<br>
-
-
-
-
-<br>
 
 
 
