@@ -107,27 +107,27 @@ graph TD
 
 
 ```mermaid
----
-config:
-  theme: redux
-  look: neo
----
 flowchart TD
-  start([Game Start])
-  start --> input{Player Input}
-  input -->|"Move Paddle"| paddle[Move Paddle]
-  input -->|"Ball Movement"| ball[Update Ball Position]
-  ball --> collide{Collision?}
-  collide -->|Paddle| reflect[Reflect Ball]
-  collide -->|Wall| bounce[Change Y Direction]
-  collide -->|Miss| score[Update Score]
-  reflect --> loop[Continue Gameplay]
-  bounce --> loop
-  score --> checkWin{Win Condition Met?}
-  checkWin -->|No| resetBall[Reset Ball and Continue]
-  checkWin -->|Yes| end[Game Over Screen]
-  resetBall --> loop
-  loop --> input
+  %% Start
+  MM[Main Menu] -->|Play| GP[Gameplay]
+
+  %% Gameplay mechanics
+  GP --> BallMove[Ball Movement]
+  BallMove --> Collision{Collision?}
+
+  Collision -->|Paddle| Reflect[Reflect Ball] --> BallMove
+  Collision -->|Wall| Bounce[Change Direction] --> BallMove
+  Collision -->|Miss| Score[Update Score]
+
+  %% Scoring & Win Condition
+  Score --> WinCheck{Win Condition?}
+  WinCheck -->|No| Reset[Reset Ball] --> BallMove
+  WinCheck -->|Yes| ES[End Screen]
+
+  %% End Screen options
+  ES -->|Restart| GP
+  ES -->|Main Menu| MM
+
 
 ```
 
