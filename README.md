@@ -171,7 +171,3 @@ classDiagram
 
 
 
-
-
-
-![Platform Demo](https://raw.githubusercontent.com/adxze/adxze/main/PlatfromSlide.png)
