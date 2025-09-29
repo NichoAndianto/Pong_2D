@@ -21,10 +21,10 @@ Pong 2D [Prototype] is a modern take on the classic arcade game where two player
 <table>
   <tr>
     <td align="left" width="50%">
-      <img width="100%" alt="gif1" src="https://github.com/adxze/adxze/blob/main/0604(2).gif">
+      <img width="100%" alt="gif1" src="">
     </td>
     <td align="right" width="50%">
-      <img width="100%" alt="gif2" src="https://github.com/adxze/adxze/blob/main/0604(3).gif">
+      <img width="100%" alt="gif2" src="">
     </td>
   </tr>
 </table>
