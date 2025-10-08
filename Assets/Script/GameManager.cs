@@ -1,5 +1,4 @@
 using Unity.VisualScripting;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using TMPro;
@@ -35,7 +34,7 @@ public class GameManager : MonoBehaviour
         if(wallName == "LeftLine")
         {
             playerScoreR = playerScoreR + 10;
-            textScoreL.text = playerScoreL.ToString();
+            textScoreR.text = playerScoreR.ToString();
             ScoreCheck();
         }
         else
