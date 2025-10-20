@@ -18,16 +18,7 @@ Pong 2D [Prototype] is a modern take on the classic arcade game where two player
 
 <br>
 
-<table>
-  <tr>
-    <td align="left" width="50%">
-      <img width="100%" alt="gif1" src="">
-    </td>
-    <td align="right" width="50%">
-      <img width="100%" alt="gif2" src="">
-    </td>
-  </tr>
-</table>
+
 
 ## Scene Flow 
 
