@@ -4,7 +4,7 @@ NichoAndianto (Game Developer)
   <br>
 
 ## About
-Pong 2D [Prototype] is a modern take on the classic arcade game where two players control paddles to bounce a ball back and forth. The project was built to practice fundamental mechanics such as collision detection, scoring systems, and responsive player controls. My contributions include designing the gameplay loop, implementing paddle and ball physics, and creating a smooth two-player experience.
+Beach Pong is a modern take on the classic arcade game where two players control paddles to bounce a ball back and forth. The project was built to practice fundamental mechanics such as collision detection, scoring systems, and responsive player controls. My contributions include designing the gameplay loop, implementing paddle and ball physics, and creating a smooth two-player experience.
 
 <br>
 
